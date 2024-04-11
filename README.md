@@ -1,13 +1,17 @@
-# My Eagle App Aeroplane Service app
+# My Eagle  Aeroplane Service app
 *****
 ### Author : MAUREEN CHEPTOO APRIL 11TH 2024
 ****
 ## Project Description
-This is about an aeroplane app that operates by the user first loging in ,then you can view the services offered in the plane by clicking on the various links it will take you to the page you are interested in,make an order and also incase of any issue you can report .
+This is about an aeroplane app that operates by the user first loging in ,then you can view the services offered in the plane by clicking on the various links it will take you to the page you are interested in,make an order and also incase of any issue you can report . 
+STEPWISE GUIDE
+1.The index.html file has a login page where data is stored in the json server,the specific passwords and emails ,you will get an error if you sign up with a name on the database and input the wrong password.
+You  should make sure your db.json server is bieng watched by running the command on the terminal to enable server communication
+2.Once you log in you will taken to the homepage where you will see some navigation buttons namely:services,booking and contact us ,when you click on the it will take you to their respective pages and you will view content there.
 ******
 
 ## SCREENSHOTS
-
+![alt text](image.png)
 
 ********
 ## SetUp Instruction
@@ -34,7 +38,7 @@ This is about an aeroplane app that operates by the user first loging in ,then y
 > Run using live server
 *****
 ## Live Link
-Or you can access the web application directly via this [https://vikingsvariable.netlify.app/](https://vikingsvariable.netlify.app/)
+Or you can access the web application directly via this 
 *****
 ## Dependencies
 - Google fonts

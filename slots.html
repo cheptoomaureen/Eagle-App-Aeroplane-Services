@@ -53,6 +53,88 @@
  <button id="close-modal-button">Close</button>
 </div>
 
+
+
+<div class="product-description" data-name="Gourmet Meal #1" data-price="5">
+  <h3 class="product-name">Gourmet Meal #1</h3>
+  <p class="product-price">&euro; 5</p>
+  <form class="add-to-cart" action="cart.html" method="post">
+    <div>
+      <label for="qty-1">Quantity</label>
+      <input type="number" name="qty-1" id="qty-1" class="qty" value="1" />
+    </div>
+    <p><input type="button" value="Add to cart" class="btn" onclick="addToCart('Gourmet Meal #1', 5, parseInt(document.getElementById('qty-1').value))" /></p>
+  </form>
+</div>
+
+<form id="shopping-cart" action="cart.html" method="post">
+  <table class="shopping-cart">
+    <thead>
+      <tr>
+        <th scope="col">Item</th>
+        <th scope="col">Qty</th>
+        <th scope="col">Price</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+  <p id="sub-total">
+    <strong>Sub Total</strong>: <span id="stotal"></span>
+  </p>
+  <ul id="shopping-cart-actions">
+    <li>
+      <input type="button" name="update" id="update-cart" class="btn" value="Update Cart" onclick="updateCart()" />
+    </li>
+    <li>
+      <input type="button" name="delete" id="empty-cart" class="btn" value="Empty Cart" onclick="emptyCart()" />
+    </li>
+    <li>
+      <a href="index.html" class="btn">Continue Shopping</a>
+    </li>
+    <li>
+      <a href="checkout.html" class="btn" onclick="processPayment()">Go To Checkout</a>
+    </li>
+  </ul>
+</form>
+
+<h1>Your Order</h1>
+
+<table id="checkout-cart" class="shopping-cart">
+  <thead>
+    <tr>
+      <th scope="col">Item</th>
+      <th scope="col">Qty</th>
+      <th scope="col">Price</th>
+    </tr>
+  </thead>
+  <tbody></tbody>
+</table>
+
+<div id="pricing">
+  <p id="sub-total">
+    <strong>Total</strong>: <span id="stotal"></span>
+  </p>
+</div>
+
+<div id="user-details">
+  <h2>Your Data</h2>
+  <div id="user-details-content"></div>
+</div>
+
+<form id="paypal-form" action="" method="post">
+  <input type="hidden" name="cmd" value="_cart" />
+  <input type="hidden" name="upload" value="1" />
+  <input type="hidden" name="business" value="" />
+
+  <input type="hidden" name="currency_code" value="" />
+  <input type="submit" id="paypal-btn" class="btn" value="Pay with PayPal" />
+  <input type="submit" id="cash-btn" class="btn" value="Pay with Cash" />
+</form>
+
+
+
+
+
  <script src="slots.js"></script>
 
 <!-- JavaScript for handling the "View" button click -->
