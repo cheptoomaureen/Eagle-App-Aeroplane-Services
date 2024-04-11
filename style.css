@@ -1,0 +1,79 @@
+/* General Styles */
+body.home {
+  background-image: url('https://i.pinimg.com/474x/30/f3/bc/30f3bcc0adc4eeaf10d877450f6bf8b9.jpg');
+  background-size: cover; /* This will scale the background image to be as large as possible */
+  background-position: center; /* This will center the background image */
+  background-repeat: no-repeat; /* This will prevent the background image from repeating */
+}
+
+
+header {
+  background-color: #390bde;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+ }
+ 
+ /* Login Form Styles */
+ .login, .signup {
+  background-color: #fff;
+  padding: 15px; /* Reduced padding */
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+ }
+ 
+ .login label, .signup label {
+  display: block;
+  margin-bottom: 5px;
+ }
+ 
+ .login input, .signup input {
+  width: 50%; /* Adjusted width to fit within the reduced height */
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+ }
+ 
+ .login button, .signup button {
+  width: 50%; /* Adjusted width to fit within the reduced height */
+  padding: 10px;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+ }
+ 
+ .login button:hover, .signup button:hover {
+  background-color: #0056b3;
+ }
+ 
+
+/* Footer Styles */
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .container {
+      width: 95%;
+  }
+}

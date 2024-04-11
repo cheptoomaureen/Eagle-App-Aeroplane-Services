@@ -1,0 +1,279 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Harvey",
+      "email": "harvey@gmail.com",
+      "password": "password123"
+    },
+    {
+      "id": 2,
+      "name": "Olive",
+      "email": "olive@gmail.com",
+      "password": "qwerty456"
+    },
+    {
+      "name": "kennedy",
+      "email": "kennedy@gmail.com",
+      "password": "123",
+      "id": 3
+    },
+    {
+      "name": "Oliver",
+      "email": "oliver@gmail.com",
+      "password": "123",
+      "id": 4
+    },
+    {
+      "name": "Sasha",
+      "email": "sasha@gmail.com",
+      "password": "123",
+      "id": 5
+    },
+    {
+      "name": "Headlum",
+      "email": "headlum@gmail.com",
+      "password": "1234",
+      "id": 6
+    },
+    {
+      "name": "Owen",
+      "email": "owen@gmail.com",
+      "password": "1234",
+      "id": 7
+    },
+    {
+      "id": "63f2",
+      "name": "Maureen",
+      "email": "chep@gmail.com",
+      "password": "1234"
+    }
+  ],
+  "login": [
+    {
+      "id": 1,
+      "name": "Alicia",
+      "password": "password123"
+    },
+    {
+      "id": 2,
+      "name": "Jane ",
+      "password": "qwerty456"
+    },
+    {
+      "email": "henry@gmail.com",
+      "password": "1234",
+      "id": 3
+    },
+    {
+      "email": "alicia@gmail.com",
+      "password": "password123",
+      "id": 4
+    },
+    {
+      "email": "precious@gmail.com",
+      "password": "password123",
+      "id": 5
+    },
+    {
+      "email": "allan@gmail.com",
+      "password": "jthj",
+      "id": 6
+    },
+    {
+      "email": "wendy@gmail.com",
+      "password": "password123",
+      "id": 7
+    },
+    {
+      "email": "henry@gmail.com",
+      "password": "gthgh",
+      "id": 8
+    },
+    {
+      "email": "daniel@gmail.com",
+      "password": "123",
+      "id": 9
+    },
+    {
+      "email": "hellen@gmail.com",
+      "password": "password123",
+      "id": 10
+    },
+    {
+      "email": "rodgers@gmail.com",
+      "password": "fgfhthnt",
+      "id": 11
+    },
+    {
+      "email": "prudence@gmail.com",
+      "password": "ghngn",
+      "id": 12
+    },
+    {
+      "email": "getrude@gmail.com",
+      "password": "efdefve",
+      "id": 13
+    },
+    {
+      "email": "anita@gmail.com",
+      "password": "password123",
+      "id": 14
+    },
+    {
+      "email": "evans@gmail.com",
+      "password": "jnj",
+      "id": 15
+    },
+    {
+      "email": "cindy@gmail.com",
+      "password": "ddef",
+      "id": 16
+    },
+    {
+      "email": "stevens@gmail.com",
+      "password": "1234",
+      "id": 17
+    },
+    {
+      "email": "jeremy@gmail.com",
+      "password": "ferf",
+      "id": 18
+    },
+    {
+      "email": "faith@gmail.com",
+      "password": "frgrg",
+      "id": 19
+    },
+    {
+      "email": "abigael@gmail.com",
+      "password": "1234",
+      "id": 20
+    },
+    {
+      "email": "selina@gmail.com",
+      "password": "password123",
+      "id": 21
+    },
+    {
+      "email": "kevin@gmail.com",
+      "password": "1234",
+      "id": 22
+    },
+    {
+      "email": "brian@gmail.com",
+      "password": "1234",
+      "id": 23
+    },
+    {
+      "email": "collins@gmail.com",
+      "password": "password123",
+      "id": 24
+    },
+    {
+      "email": "byron@gmail.com",
+      "password": "1234",
+      "id": 25
+    },
+    {
+      "email": "morris@gmail.com",
+      "password": "1234",
+      "id": 26
+    },
+    {
+      "email": "anthony@gmail.com",
+      "password": "geeeegrgh",
+      "id": 27
+    },
+    {
+      "email": "brenda@gmail.com",
+      "password": "12344",
+      "id": 28
+    },
+    {
+      "email": "mark@gmail.com",
+      "password": "ooooooooooo",
+      "id": 29
+    },
+    {
+      "email": "jade@gmail.com",
+      "password": "password123",
+      "id": 30
+    },
+    {
+      "email": "jason@gmail.com",
+      "password": "PASSWORD123",
+      "id": 31
+    },
+    {
+      "email": "jenna@gmail.com",
+      "password": "PASSWORD123",
+      "id": 32
+    }
+  ],
+  "signup": [
+    {
+      "id": 1,
+      "name": "Jonathan",
+      "email": "jonathan@gmail.com",
+      "password": "password123"
+    },
+    {
+      "id": 2,
+      "name": "Donald",
+      "email": "donald@gmail.com",
+      "password": "qwerty456"
+    },
+    {
+      "name": "Ivana",
+      "email": "ivana@gmail.com",
+      "password": "",
+      "id": 3
+    },
+    {
+      "name": "Ian ",
+      "email": "ian@gmail.com",
+      "password": "55663",
+      "id": 4
+    },
+    {
+      "name": "Ivanka",
+      "email": "ivanka@gmail.com",
+      "password": "hjjyh",
+      "id": 5
+    },
+    {
+      "name": "Clinton",
+      "email": "clinton@gmail.com",
+      "password": "dhjwd3",
+      "id": 6
+    },
+    {
+      "name": "Hillary",
+      "email": "hillary@gmail.com",
+      "password": "dnmj3",
+      "id": 7
+    },
+    {
+      "name": "Mitchelle",
+      "email": "mitchelle@yahoo.com",
+      "password": "kjiu4",
+      "id": 8
+    },
+    {
+      "name": "Malia",
+      "email": "malia@yahoo.com",
+      "password": "quidy2",
+      "id": 9
+    }
+  ],
+  "orders": [
+    {
+      "orderId": "1001",
+      "passengerName": "Kate Middeltown",
+      "service": "Gourmet Meal",
+      "status": "Pending",
+      "details": "Order details go here..."
+    }
+  ]
+}

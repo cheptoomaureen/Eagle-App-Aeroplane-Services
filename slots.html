@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Passenger Orders and Notifications</title>
+ <link rel="stylesheet" href="slots.css">
+</head>
+<nav> 
+ <ul>
+    <a href="home.html">Home</a> 
+    <a href="services.html">Our Services</a>
+    <a href="slots.html">Booking</a>
+    <a href="contact.html">Contact Us</a>
+ </ul>
+</nav>
+<body>
+ <h1>Passenger Orders</h1>
+ <table id="orders-table">
+    <thead>
+      <tr>
+        <th>Order ID</th>
+        <th>Passenger Name</th>
+        <th>Service/Food</th>
+        <th>Status</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Example order -->
+      <tr>
+        <td>1001</td>
+        <td>Kate Middleton</td>
+        <td>Gourmet Meal</td>
+        <td>Pending</td>
+        <td><button class="view-order-button" data-id="1001">View</button></td>
+      </tr>
+      <!-- Add more orders as needed -->
+    </tbody>
+ </table>
+
+ <h2>Notifications</h2>
+ <ul id="notifications-list">
+    <!-- Example notification -->
+    <li>New order placed by Kate Middleton for a Vegetarian Meal.</li>
+    <!-- Add more notifications as needed -->
+ </ul>
+
+ 
+
+ <!-- Modal for displaying order details -->
+ <div id="order-details-modal" style="display: none;">
+ <h3>Order Details</h3>
+ <p id="order-details-content"></p>
+ <button id="close-modal-button">Close</button>
+</div>
+
+ <script src="slots.js"></script>
+
+<!-- JavaScript for handling the "View" button click -->
+
+
+</body>
+</html>

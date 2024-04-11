@@ -1,0 +1,132 @@
+/* Reset default margins and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ }
+ 
+ /* Navigation Bar */
+ nav {
+  background-color: #333;
+  color: #fff;
+  padding: 5px 0; /* Reduced padding for a compact nav bar */
+ }
+ nav {
+  background-color: #333;
+  overflow: hidden;
+}
+nav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+  }
+#login-form {
+color: #7a551c;
+font-size: 1.5em;
+}
+h2{
+    color: #7a551c;
+    font: arial sans-serif;
+
+}
+ nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+ }
+ 
+ nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 16px;
+ }
+ 
+ nav ul li a:hover {
+  background-color: #111;
+ }
+ 
+ /* Logo */
+ img {
+  max-width: 100%;
+  height: auto;
+  display: block; /* Ensures the image is centered */
+  margin: 0 auto; /* Centers the image */
+ }
+ 
+ /* Main Content */
+ body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4; /* Light background for contrast */
+  padding: 20px; /* Adds some padding around the content */
+ }
+ 
+ h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px; /* Space between the title and the table */
+ }
+ 
+ /* Table */
+ #orders-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px; /* Space between the table and the notifications */
+ }
+ 
+ #orders-table th, #orders-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+ }
+ 
+ #orders-table th {
+  background-color: #f2f2f2;
+  color: black;
+ }
+ 
+ #orders-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+ }
+ 
+ .view-order-button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+ }
+ 
+ /* Notifications */
+ #notifications-list {
+  list-style-type: none;
+  padding: 0;
+ }
+ 
+ #notifications-list li {
+  background-color: #f9f9f9;
+  margin: 10px 0;
+  padding: 10px;
+  border-left: 5px solid #4CAF50;
+ }
+ 
+ /* Calls Section */
+ h2 {
+  color: #333;
+  margin-top: 20px;
+ }
+ 
+ p {
+  margin-top: 10px;
+ }
+ 
