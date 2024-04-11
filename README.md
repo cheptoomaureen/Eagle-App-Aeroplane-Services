@@ -11,7 +11,9 @@ You  should make sure your db.json server is bieng watched by running the comman
 ******
 
 ## SCREENSHOTS
-![alt text](image.png)
+![Screenshot from 2024-04-11 11-53-21](https://github.com/cheptoomaureen/Eagle-App-Aeroplane-Services/assets/162347797/6f3bf4e3-defa-4878-9170-18009091eafe)
+24-04-11 11-53-21.png…()
+
 
 ********
 ## SetUp Instruction
@@ -38,7 +40,7 @@ You  should make sure your db.json server is bieng watched by running the comman
 > Run using live server
 *****
 ## Live Link
-Or you can access the web application directly via this 
+Or you can access the web application directly via this https://eagleappaeroplaneservices.netlify.app/
 *****
 ## Dependencies
 - Google fonts
